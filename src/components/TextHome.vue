@@ -21,8 +21,8 @@ export default {
           sint!
         </p>
       </div>
-      <div class="btn-home">
-        <button>Explorer Menu</button>
+      <div>
+        <button class="btn-home">Explorer Menu</button>
       </div>
     </div>
   </div>
@@ -49,23 +49,6 @@ export default {
 
 .desc p {
   color: #fff;
-}
-
-.btn-home button{
-    border: none;
-    background: transparent;
-    border:2px solid  #ffa500;
-    color: #fff;
-    width: 180px;
-    padding: .5rem 0rem;
-    margin-top: 1rem;
-    cursor: pointer;
-    font-weight: 500;
-}
-
-.btn-home button:hover{
-    background: #ffa500;
-    color: #fff;
 }
 
 @media(max-width:680px){
