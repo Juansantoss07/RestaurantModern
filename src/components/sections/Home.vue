@@ -31,6 +31,7 @@ export default {
     @media(max-width:680px){
         .section-home{
             flex-direction: column;
+            justify-content: center;
         }
     }
 </style>
