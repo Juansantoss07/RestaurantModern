@@ -53,8 +53,9 @@ export default {
 
 .btn-home button{
     border: none;
-    background: #f0f8ff;
-    color: #000;
+    background: transparent;
+    border:2px solid  #ffa500;
+    color: #fff;
     width: 180px;
     padding: .5rem 0rem;
     margin-top: 1rem;
