@@ -87,7 +87,12 @@ export default {
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin: 1rem 0;
   }
 
+  .about-box p,
+  .about-box2 p {
+    padding: 0 2rem;
+  }
 }
 </style>

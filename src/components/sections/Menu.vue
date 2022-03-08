@@ -192,4 +192,11 @@ section{
         margin: 0.5rem 0;
     }
 }
+
+@media(max-height:580px){
+  section{
+    height: auto !important;
+    padding:2rem 0;
+  }
+}
 </style>
