@@ -2,14 +2,16 @@
   import Header from "./components/Header.vue";
   import Home from "./components/sections/Home.vue";
   import NavMobile from "./components/NavMobile.vue";
-  import About from "./components/sections/About.vue"
+  import About from "./components/sections/About.vue";
+  import Menu from "./components/sections/Menu.vue"
   export default{
     name: "app",
     components:{ 
       Header,
       Home,
       NavMobile,
-      About
+      About,
+      Menu
     }
   }
 </script>
@@ -19,6 +21,7 @@
     <Header/>
     <Home/>
     <About/>
+    <Menu/>
 </template>
 
 <style>
